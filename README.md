@@ -1,7 +1,7 @@
 # Semaphore Synchronization for p1, p2, p3
 
 ## Overview
-This project demonstrates how to use semaphores in Linux to synchronize three processes (p1, p2, and p3). The processes run in the following order repeatedly:
+This project demonstrates how to use semaphores in Linux to synchronize three processes, p1, p2, and p3. The processes run in the following order repeatedly:
 - **p1**: Prints a message once.
 - **p2**: Prints a message once.
 - **p3**: Prints a message twice.
