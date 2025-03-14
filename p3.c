@@ -9,15 +9,10 @@ int main() {
     int sem1 = get_sem(".", 'A');
 
     do {
-        // *** this is where you should place semaphore 
+        // *** this is where you should place semaphore
        P(sem3);
 
        printf("P3333333 is here\n"); i++ ;
-
-       // wait for the second time
-       P(sem3);
-
-       printf("P3333333 is here\n"); i++;
 
        // *** this is where you should place semaphore
        V(sem1);

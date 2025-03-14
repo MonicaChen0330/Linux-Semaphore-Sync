@@ -17,6 +17,7 @@ int main() {
 
        // *** this is where you should place semaphore
        V(sem2);
+       P(sem1);
 
     }  while (i < 100) ;
 
